@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Examen01_Valentin</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body >
+    <nav>
+        <section class="b"><input type="submit" onclick="inicio()" value="Inicio" class="bt"></section>
+        <section class="b"><input type="submit" onclick="venta()" value="Venta" class="bt"></section>
+        <section class="b"><input type="submit" onclick="cliente()" value="Clientes" class="bt"></section>
+        <section class="b"><input type="submit" onclick="producto()" value="Producto" class="bt"></section>
+    </nav>
+    <script src="js/javascrip.js"></script>
+    <center>
+    <header id="primero">
+        <h1>Sistema de Ventas-Exa01</h1>
+    </header>
+    </center>
+    <header id="caja0"> 
+    </header>
+    <main id="caja1">
+        <input type="text" placeholder="venta" size="70px"><br>
+        <p>Cliente</p>
+        <input type="text" id="cliente" placeholder="Nombres y Apellidos" size="70px">
+        <button id="guard" onclick="buscarp()">BUSCAR</button><br>
+        <p>Impuestos</p>
+        <input type="text" id="impuestos" placeholder="cantidad" size="70px"><br>
+        <button id="busc" onclick="buscara()">Buscar Articulo</button><br>
+        <table id="tablaventas">
+            <th>N°</th>
+            <th>Articulo</th>
+            <th>Codigo</th>
+            <th>serie</th>
+            <th>stock</th>
+            <th>p.venta</th>
+            <th>cantidad</th>
+            <th>descuento</th>
+            <th>eliminar</th>
+        </table>
+        <button id="genervent" onclick="generarventa()">generar venta</button>
+        <button id="cancelar" onclick="cancelarventa()">cancelar</button>
+    </main>
+
+
+
+    <main>
+        <table id="tablaclientes">
+            <th>Item</th>
+            <th>Nombre</th>
+            <th>Apellidos</th>
+            <th>Acción</th>
+        </table>
+    </main>
+    <main>
+        <table id="tablaproductos">
+            <th>Item</th>
+            <th>Producto</th>
+            <th>Precio</th>
+            <th>Stock</th>
+            <th>Acción</th>
+        </table>
+    </main>
+</body>
+</html>

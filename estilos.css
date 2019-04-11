@@ -1,0 +1,28 @@
+body{
+    margin: 100px;
+    color: rgb(61, 51, 70);
+    width: 1000px;
+    background-color:white;
+    height: 800px;
+    margin-top: 110px;
+    margin-left: 500px;
+}
+nav{
+    height: 100px;
+    width: 1000px;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    background-color: bisque;
+    background-image: url(file:///C:/Users/alumno.l4/Desktop/recursos/car.jpg);
+}
+header{
+    height: 100px;
+    width: 800px;
+    background: yellow;
+    color: black;
+}
